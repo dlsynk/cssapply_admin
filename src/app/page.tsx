@@ -1,9 +1,9 @@
 'use client';
-import React, { useState } from 'react';
+import { useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 
-const Schedule: React.FC = () => {
+const Schedule = () => {
   const [sidebarOpen, setSidebarOpen] = useState(false);
 
   return (
@@ -151,8 +151,7 @@ const Schedule: React.FC = () => {
             className="text-2xl md:text-4xl font-bold text-gray-800 mb-4 md:mb-2 flex items-center justify-center md:justify-start"
             style={{ fontFamily: "var(--font-raleway)" }}
           >
-            Welcome, {'{replace with name}'}
-            <span className="ml-2">👋</span>
+            Welcome, {'{replace with name}'} 👋
           </h1>
           <p className="text-sm md:text-base text-gray-600 italic mb-8 md:mb-6">
             Stay organized and guide applicants through their journey

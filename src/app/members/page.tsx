@@ -7,7 +7,7 @@ const Members = () => {
 
       {/* Sidebar Navigation */}
       <MobileSidebar>
-        <SidebarContent activePage="applications" />
+        <SidebarContent activePage="members"/>
       </MobileSidebar>
 
       {/* MAIN CONTENT */}

@@ -7,7 +7,7 @@ const Staffs = () => {
 
       {/* Sidebar Navigation */}
       <MobileSidebar>
-        <SidebarContent activePage="applications" />
+        <SidebarContent activePage="staffs" />
       </MobileSidebar>
 
       {/* MAIN CONTENT */}

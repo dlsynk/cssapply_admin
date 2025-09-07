@@ -7,7 +7,7 @@ const EAs = () => {
 
       {/* Sidebar Navigation */}
       <MobileSidebar>
-        <SidebarContent activePage="applications" />
+        <SidebarContent activePage="eas" />
       </MobileSidebar>
 
       {/* MAIN CONTENT */}
